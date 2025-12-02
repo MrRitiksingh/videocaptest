@@ -1,0 +1,82 @@
+name: ai_video_creator_editor
+description: "A new Flutter project."
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.4.0
+  provider: ^6.1.2
+  loader_overlay: ^5.0.0
+  easy_localization: ^3.0.7+1
+  modal_bottom_sheet: ^3.0.0
+  cached_network_image: ^3.4.1
+  dio: ^5.7.0
+  dio_http_cache_fix:
+    git: https://github.com/aethia-dev/dio-http-cache
+  toastification: ^2.3.0
+  permission_handler: ^11.3.1
+  device_info_plus: ^11.2.1
+  video_player: ^2.9.2
+  flick_video_player: ^0.9.0
+  audioplayers: ^6.1.0
+  gal: ^2.3.1
+  path_provider: ^2.1.5
+  file_picker: ^8.1.7
+  image_picker: ^1.1.2
+  hl_image_picker: ^1.2.16
+  video_editor: ^3.0.0
+  fraction: ^5.0.4
+  photo_manager: ^3.6.3
+  image_size_getter: ^2.4.0
+  video_thumbnail: ^0.5.3
+  easy_audio_trimmer:
+    git:
+      url: https://github.com/Saurav-microcosmworks/easy_audio_trimmer.git
+      ref: 7997fc3e13e06634ac236e45aca3e835365dbe56
+  path: ^1.9.0
+  on_audio_query_forked: ^2.9.1
+  on_audio_query_android_v1_8: ^1.1.1
+  image: ^4.5.2
+  flutter_colorpicker: ^1.1.0
+  lazy_load_scrollview: ^1.3.0
+  linked_scroll_controller: ^0.2.0
+  audio_waveforms: ^1.2.0
+  uuid: ^4.5.1
+  sliding_up_panel_custom: ^2.1.1+1
+  reorderables: ^0.6.0
+  flutter_cache_manager: ^3.4.1
+  cached_video_player_plus: ^3.0.3
+  objectbox: ^4.1.0
+  objectbox_flutter_libs: ^4.1.0
+  ffmpeg_kit_flutter_new: ^1.6.1
+  scrollable_positioned_list: ^0.3.8
+
+dependency_overrides:
+  intl: 0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.14
+  change_app_package_name: ^1.4.0
+  objectbox_generator: ^4.1.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/translations/
+    - assets/images/
+    - assets/icons/
+    - assets/gifs/
+    - assets/fonts/

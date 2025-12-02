@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "576399915596",
+    "project_id": "videocaptest-97ed8",
+    "storage_bucket": "videocaptest-97ed8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576399915596:android:b0cc9543870b19f78292e9",
+        "android_client_info": {
+          "package_name": "com.videocap.videoeditor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnw-1rxbbCnqr97u422GNxUinkie_W7VE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
